@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with Workflow PetriNet Designer Version 3.9.2 (woped.org)
+Manual editing may break compatibility.-->
+<pnml>
+  <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="">
+    <place id="M1">
+      <name>
+        <text>M1</text>
+        <graphics>
+          <offset x="620" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="610" y="193"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M2">
+      <name>
+        <text>M2</text>
+        <graphics>
+          <offset x="1020" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1000" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M3">
+      <name>
+        <text>M3</text>
+        <graphics>
+          <offset x="1420" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1400" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_rip">
+      <name>
+        <text>O:p_rip</text>
+        <graphics>
+          <offset x="2590" y="920"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2590" y="878"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M4">
+      <name>
+        <text>M4</text>
+        <graphics>
+          <offset x="2810" y="520"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2785" y="476"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M5">
+      <name>
+        <text>M5</text>
+        <graphics>
+          <offset x="1820" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1800" y="847"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M6">
+      <name>
+        <text>M6</text>
+        <graphics>
+          <offset x="2190" y="970"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2181" y="928"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M7">
+      <name>
+        <text>M7</text>
+        <graphics>
+          <offset x="1920" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1902" y="197"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M8">
+      <name>
+        <text>M8</text>
+        <graphics>
+          <offset x="1620" y="1250"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1595" y="1206"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M9">
+      <name>
+        <text>M9</text>
+        <graphics>
+          <offset x="2810" y="1090"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2785" y="1040"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_P_att">
+      <name>
+        <text>A:Attesa</text>
+        <graphics>
+          <offset x="1420" y="970"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1400" y="921"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_P_mend">
+      <name>
+        <text>A:p_fine</text>
+        <graphics>
+          <offset x="3390" y="510"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3370" y="467"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_esito">
+      <name>
+        <text>O:Esito</text>
+        <graphics>
+          <offset x="2200" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2200" y="843"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_p4">
+      <name>
+        <text>A:p4</text>
+        <graphics>
+          <offset x="1570" y="860"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1576" y="820"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_pr">
+      <name>
+        <text>O:p_pr</text>
+        <graphics>
+          <offset x="2810" y="760"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2785" y="718"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_p5">
+      <name>
+        <text>A:p5</text>
+        <graphics>
+          <offset x="2030" y="1020"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2005" y="975"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_p2">
+      <name>
+        <text>A:p2</text>
+        <graphics>
+          <offset x="1020" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1000" y="193"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_p3">
+      <name>
+        <text>A:p3</text>
+        <graphics>
+          <offset x="1210" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1205" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_da">
+      <name>
+        <text>O:p_da</text>
+        <graphics>
+          <offset x="600" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="610" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_pi">
+      <name>
+        <text>O:p_pi</text>
+        <graphics>
+          <offset x="2620" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2624" y="554"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M11">
+      <name>
+        <text>M11</text>
+        <graphics>
+          <offset x="3190" y="480"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3165" y="433"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M10">
+      <name>
+        <text>M10</text>
+        <graphics>
+          <offset x="1750" y="770"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1725" y="725"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M13">
+      <name>
+        <text>M13</text>
+        <graphics>
+          <offset x="3200" y="340"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3175" y="293"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_pd">
+      <name>
+        <text>O:p_pd</text>
+        <graphics>
+          <offset x="420" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="415" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="M12">
+      <name>
+        <text>M12</text>
+        <graphics>
+          <offset x="3180" y="690"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3175" y="641"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_P_acc">
+      <name>
+        <text>A:p_acc</text>
+        <graphics>
+          <offset x="800" y="1360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="805" y="1318"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_ins">
+      <name>
+        <text>O:p_ins</text>
+        <graphics>
+          <offset x="2390" y="750"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2395" y="703"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_cr">
+      <name>
+        <text>O:p_cr</text>
+        <graphics>
+          <offset x="1100" y="70"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1102" y="20"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_prop">
+      <name>
+        <text>O:p_prop</text>
+        <graphics>
+          <offset x="2580" y="690"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2590" y="648"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_end">
+      <name>
+        <text>O:p_fine</text>
+        <graphics>
+          <offset x="3200" y="600"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3175" y="556"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_eval">
+      <name>
+        <text>O:p_valut</text>
+        <graphics>
+          <offset x="3000" y="610"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2980" y="560"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_sp">
+      <name>
+        <text>O:p_sp</text>
+        <graphics>
+          <offset x="220" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="220" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_p1">
+      <name>
+        <text>A:p1</text>
+        <graphics>
+          <offset x="810" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="805" y="193"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_P_fine">
+      <name>
+        <text>O:p_fineStage</text>
+        <graphics>
+          <offset x="2380" y="630"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2395" y="591"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_rf">
+      <name>
+        <text>O:p_rf</text>
+        <graphics>
+          <offset x="2010" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2005" y="845"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="o">
+      <name>
+        <text>o</text>
+        <graphics>
+          <offset x="3790" y="560"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3770" y="512"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_P_es">
+      <name>
+        <text>A:p_esito</text>
+        <graphics>
+          <offset x="1200" y="1290"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1205" y="1251"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_o">
+      <name>
+        <text>A:o</text>
+        <graphics>
+          <offset x="3590" y="510"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3575" y="467"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_p_iv">
+      <name>
+        <text>O:p_iv</text>
+        <graphics>
+          <offset x="2780" y="610"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2785" y="562"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="A_P_mtry">
+      <name>
+        <text>A:p_try</text>
+        <graphics>
+          <offset x="1030" y="1410"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1028" y="1364"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_i">
+      <name>
+        <text>i</text>
+        <graphics>
+          <offset x="40" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="25" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+    </place>
+    <place id="O_p_ac">
+      <name>
+        <text>O:p_ac</text>
+        <graphics>
+          <offset x="800" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="805" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="O_o">
+      <name>
+        <text>O:o</text>
+        <graphics>
+          <offset x="3490" y="600"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3472" y="556"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <transition id="A_c_instr">
+      <name>
+        <text>Riceve Istruzioni</text>
+        <graphics>
+          <offset x="2270" y="1200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2297" y="1155"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="2307" y="1135"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_prol">
+      <name>
+        <text>Riceve Prop. Prolungamento</text>
+        <graphics>
+          <offset x="3290" y="750"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3338" y="707"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="3348" y="687"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_prop">
+      <name>
+        <text>Riceve Att. Proposta</text>
+        <graphics>
+          <offset x="1430" y="860"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1459" y="811"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="1469" y="791"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_c_richiesta">
+      <name>
+        <text>Riceve Rich. Attivita</text>
+        <graphics>
+          <offset x="1460" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1497" y="104"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="1507" y="84"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_tau_acc">
+      <name>
+        <text>dummy accetta</text>
+        <graphics>
+          <offset x="870" y="1380"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="902" y="1336"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_rifiuto">
+      <name>
+        <text>Comunica Rifiuto</text>
+        <graphics>
+          <offset x="1240" y="1190"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1292" y="1150"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_rip">
+      <name>
+        <text>Riceve Rich. Ripetizione</text>
+        <graphics>
+          <offset x="2840" y="1250"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2882" y="1202"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="2892" y="1182"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_ask">
+      <name>
+        <text>Richiede Istruzioni</text>
+        <graphics>
+          <offset x="1720" y="970"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1697" y="924"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_valuta">
+      <name>
+        <text>Valuta Resoconto</text>
+        <graphics>
+          <offset x="2860" y="610"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2882" y="561"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_succ">
+      <name>
+        <text>Comunica Successo</text>
+        <graphics>
+          <offset x="1260" y="980"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1302" y="921"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_assign">
+      <name>
+        <text>Riceve Assegn. Sup.</text>
+        <graphics>
+          <offset x="1060" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1102" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_contr">
+      <name>
+        <text>Riceve Prop. Contratto</text>
+        <graphics>
+          <offset x="3230" y="510"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3272" y="467"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="3282" y="447"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_T_start">
+      <name>
+        <text>Convocazione</text>
+        <graphics>
+          <offset x="680" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="707" y="193"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_comunica">
+      <name>
+        <text>Comunica Assegn. Sup.</text>
+        <graphics>
+          <offset x="850" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="902" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_insucc">
+      <name>
+        <text>Comunica Insuccesso</text>
+        <graphics>
+          <offset x="1260" y="1290"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1302" y="1251"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_sv_prop">
+      <name>
+        <text>Propone Attivita</text>
+        <graphics>
+          <offset x="2670" y="690"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2687" y="648"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_c_concl">
+      <name>
+        <text>Riceve Notifica Concl.</text>
+        <graphics>
+          <offset x="3260" y="340"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3272" y="293"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="3282" y="273"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_T_end">
+      <name>
+        <text>Fine</text>
+        <graphics>
+          <offset x="3480" y="510"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3472" y="467"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_sv_invia">
+      <name>
+        <text>Invia Resoconto</text>
+        <graphics>
+          <offset x="2660" y="610"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2687" y="563"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_concl">
+      <name>
+        <text>Notifica Concl. Rapporto</text>
+        <graphics>
+          <offset x="3020" y="490"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3051" y="446"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_c_rifiuto">
+      <name>
+        <text>Riceve Rifiuto</text>
+        <graphics>
+          <offset x="2290" y="750"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2297" y="703"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="2307" y="683"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_c_insucc">
+      <name>
+        <text>Scopre l'Insuccesso</text>
+        <graphics>
+          <offset x="2320" y="1090"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2297" y="1043"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="2307" y="1023"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_start">
+      <name>
+        <text>Start</text>
+        <graphics>
+          <offset x="130" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="122" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_contr">
+      <name>
+        <text>Propone Contratto</text>
+        <graphics>
+          <offset x="3050" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3077" y="556"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_c_succ">
+      <name>
+        <text>Scopre il Successo</text>
+        <graphics>
+          <offset x="2260" y="640"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2297" y="591"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="2307" y="571"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_tau_ins">
+      <name>
+        <text>dummy Insisti</text>
+        <graphics>
+          <offset x="2470" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2482" y="857"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_tau_no">
+      <name>
+        <text>dummy No</text>
+        <graphics>
+          <offset x="2480" y="680"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2492" y="633"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_plan">
+      <name>
+        <text>Pianifica Colloquio</text>
+        <graphics>
+          <offset x="290" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="317" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_contact">
+      <name>
+        <text>Contatta Supervisore</text>
+        <graphics>
+          <offset x="1270" y="190"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1302" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_sv_forn">
+      <name>
+        <text>Fornisce Istruzioni</text>
+        <graphics>
+          <offset x="2070" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2102" y="845"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_try">
+      <name>
+        <text>Tenta di Eseguire</text>
+        <graphics>
+          <offset x="1110" y="1370"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1092" y="1323"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t_final">
+      <name>
+        <text>fine collaborazione</text>
+        <graphics>
+          <offset x="3650" y="560"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3672" y="512"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_dirige">
+      <name>
+        <text>Dirige Colloquio</text>
+        <graphics>
+          <offset x="490" y="200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="512" y="151"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_tau_acc">
+      <name>
+        <text>dummy Accetta Rifiuto</text>
+        <graphics>
+          <offset x="2460" y="750"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2492" y="708"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="A_t_coll">
+      <name>
+        <text>Effettua Colloquio</text>
+        <graphics>
+          <offset x="870" y="240"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="902" y="193"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_c_recvask">
+      <name>
+        <text>Riceve Rich. Istruzioni</text>
+        <graphics>
+          <offset x="1870" y="890"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1902" y="845"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <trigger id="" type="201">
+          <graphics>
+            <position x="1912" y="825"/>
+            <dimension x="24" y="22"/>
+          </graphics>
+        </trigger>
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_end">
+      <name>
+        <text>Fine</text>
+        <graphics>
+          <offset x="3290" y="600"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3272" y="556"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_prol">
+      <name>
+        <text>Propone Prolungamento</text>
+        <graphics>
+          <offset x="3030" y="680"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3077" y="631"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_t_assegna">
+      <name>
+        <text>Assegna Supervisore</text>
+        <graphics>
+          <offset x="670" y="150"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="697" y="108"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_sv_rip">
+      <name>
+        <text>Richiede Ripetizione</text>
+        <graphics>
+          <offset x="2630" y="1010"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2687" y="967"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="O_sv_prep">
+      <name>
+        <text>Prepara Resoconto</text>
+        <graphics>
+          <offset x="2510" y="610"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2526" y="566"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <arc id="a77" source="M10" target="O_c_rifiuto">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a76" source="O_P_esito" target="O_c_rifiuto">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a79" source="O_P_fine" target="O_sv_prep">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a78" source="O_c_rifiuto" target="O_P_ins">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a80" source="O_sv_prep" target="O_p_pi">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a82" source="O_sv_invia" target="O_p_iv">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a81" source="O_p_pi" target="O_sv_invia">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a84" source="O_t_valuta" target="O_P_eval">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a83" source="O_p_iv" target="O_t_valuta">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a86" source="O_t_contr" target="O_P_end">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a85" source="O_P_eval" target="O_t_contr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a88" source="O_P_eval" target="O_t_prol">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a87" source="O_t_contr" target="M11">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a89" source="O_t_prol" target="O_P_end">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a91" source="O_P_eval" target="O_t_concl">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a90" source="O_t_prol" target="M12">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a93" source="O_t_concl" target="M13">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a92" source="O_t_concl" target="O_P_end">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a95" source="O_end" target="O_o">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a94" source="O_P_end" target="O_end">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a97" source="O_sv_rip" target="O_P_esito">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a96" source="O_P_rip" target="O_sv_rip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a11" source="M4" target="A_c_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a99" source="O_P_fine" target="O_tau_no">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a10" source="A_P_att" target="A_c_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a98" source="O_sv_rip" target="M9">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a13" source="A_p4" target="A_t_ask">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a12" source="A_c_prop" target="A_p4">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a15" source="A_t_ask" target="M5">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a14" source="A_t_ask" target="A_p5">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a17" source="M6" target="A_c_instr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a16" source="A_p5" target="A_c_instr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a19" source="A_P_acc" target="A_tau_acc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a18" source="A_c_instr" target="A_P_mtry">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a20" source="A_tau_acc" target="A_P_mtry">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a22" source="A_t_try" target="A_P_es">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a21" source="A_P_mtry" target="A_t_try">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a24" source="A_t_succ" target="A_P_att">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a23" source="A_P_es" target="A_t_succ">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a26" source="A_P_es" target="A_t_insucc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a25" source="A_t_succ" target="M7">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a28" source="A_t_insucc" target="M8">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a27" source="A_t_insucc" target="A_P_att">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a29" source="A_P_att" target="A_c_rip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a31" source="A_c_rip" target="A_P_acc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a30" source="M9" target="A_c_rip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a33" source="A_t_rifiuto" target="A_P_att">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a32" source="A_P_acc" target="A_t_rifiuto">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a35" source="A_P_att" target="A_c_contr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="2314" y="722"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a34" source="A_t_rifiuto" target="M10">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a37" source="A_c_contr" target="A_P_mend">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a36" source="M11" target="A_c_contr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a39" source="M12" target="A_c_prol">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a38" source="A_P_att" target="A_c_prol">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a40" source="A_c_prol" target="A_P_mend">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a42" source="M13" target="A_c_concl">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a41" source="A_P_att" target="A_c_concl">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a44" source="A_P_mend" target="A_T_end">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a43" source="A_c_concl" target="A_P_mend">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a46" source="O_i" target="O_start">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a45" source="A_T_end" target="A_o">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a48" source="O_p_sp" target="O_t_plan">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a47" source="O_start" target="O_p_sp">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a49" source="O_t_plan" target="O_p_pd">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a51" source="O_t_dirige" target="O_p_da">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a50" source="O_p_pd" target="O_t_dirige">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a53" source="O_p_da" target="O_t_assegna">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a52" source="O_t_dirige" target="M1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a55" source="O_p_ac" target="O_t_comunica">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a54" source="O_t_assegna" target="O_p_ac">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a57" source="O_t_comunica" target="M2">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a56" source="O_t_comunica" target="O_p_cr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a59" source="M3" target="O_c_richiesta">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a58" source="O_p_cr" target="O_c_richiesta">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a104" source="O_tau_acc" target="O_P_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a105" source="A_o" target="t_final">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a60" source="O_c_richiesta" target="O_P_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a106" source="O_o" target="t_final">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a107" source="t_final" target="o">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a62" source="O_sv_prop" target="O_p_pr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a100" source="O_tau_no" target="O_P_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a61" source="O_P_prop" target="O_sv_prop">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a101" source="O_P_ins" target="O_tau_ins">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a64" source="O_p_pr" target="O_c_recvask">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a102" source="O_tau_ins" target="O_P_rip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a63" source="O_sv_prop" target="M4">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a103" source="O_P_ins" target="O_tau_acc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a66" source="O_c_recvask" target="O_p_rf">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a65" source="M5" target="O_c_recvask">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a68" source="O_sv_forn" target="O_P_esito">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a67" source="O_p_rf" target="O_sv_forn">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a69" source="O_sv_forn" target="M6">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a0" source="M1" target="A_T_start">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a1" source="A_T_start" target="A_p1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a2" source="A_p1" target="A_t_coll">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a3" source="A_t_coll" target="A_p2">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a4" source="A_p2" target="A_c_assign">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a5" source="M2" target="A_c_assign">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a6" source="A_c_assign" target="A_p3">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a7" source="A_p3" target="A_t_contact">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a8" source="A_t_contact" target="A_P_att">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a9" source="A_t_contact" target="M3">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a71" source="M7" target="O_c_succ">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a70" source="O_P_esito" target="O_c_succ">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a73" source="O_P_esito" target="O_c_insucc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a72" source="O_c_succ" target="O_P_fine">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a75" source="O_c_insucc" target="O_P_rip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a74" source="M8" target="O_c_insucc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <toolspecific tool="WoPeD" version="3.9.2">
+      <bounds>
+        <position x="2" y="24"/>
+        <dimension x="1515" y="541"/>
+      </bounds>
+      <scale>65</scale>
+      <treeWidthRight>1195</treeWidthRight>
+      <overviewPanelVisible>true</overviewPanelVisible>
+      <treeHeightOverview>100</treeHeightOverview>
+      <treePanelVisible>true</treePanelVisible>
+      <verticalLayout>false</verticalLayout>
+      <resources/>
+      <simulations/>
+      <partnerLinks/>
+      <variables/>
+    </toolspecific>
+  </net>
+</pnml>
