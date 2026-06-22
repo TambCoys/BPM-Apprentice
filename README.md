@@ -7,8 +7,8 @@ Modeling of an apprenticeship scenario in a workshop: a BPMN collaboration
 model and its corresponding workflow nets, with analysis of their properties.
 
 ## Authors
-- Marco Tamberi — 621490
-- Fabrizio Anelli — 545819
+- Marco Tamberi 
+- Fabrizio Anelli 
 
 ## Contents
 - `report.pdf` — full report
